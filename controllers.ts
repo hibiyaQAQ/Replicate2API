@@ -16,7 +16,7 @@ import {
 import { processMessages, buildModelInput } from "./message-processor.ts";
 import { defaultApiService } from "./api-service.ts";
 import { RequestBody, ChatCompletion, ModelInput } from "./types.ts";
-import { encode } from "gpt-tokenizer/encoding/o200k_base";
+import { encode } from "https://esm.sh/gpt-tokenizer@0.4.0/encoding/o200k_base";
 
 /** 处理CORS预检请求 */
 export function handleCorsPreflightRequest(): Response {
