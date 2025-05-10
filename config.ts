@@ -1,4 +1,4 @@
-import Replicate from "replicate";
+import Replicate from "https://esm.sh/replicate@latest";
 
 // --- 配置常量 ---
 
